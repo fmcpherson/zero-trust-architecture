@@ -11,18 +11,19 @@
 >
 > You can also e-mail us on zerotrust@ncsc.gov.uk
 >
+**Note:** This repo was forked from ukncsc/zero-trust-architecture for a local copy that I can annotate. 
 
 ## Introduction
 Network architecture is changing. More services are moving to the cloud, there is a surge in the use of Software as a Service (SaaS), and users are embracing flexible working on multiple devices in a variety of locations. The traditional network perimeter is disappearing and with it, the value of traditional defences.
 
-In a zero trust architecture, inherent trust is removed from the network. Just because you're connected to a network doesn't mean you should be able to access everything on that network. This is commonly seen in breaches; an attacker gains a foothold in a network and is able to move laterally because everything on the network is trusted. In a zero trust architecture, the network is treated as hostile.
+In a zero trust architecture, inherent trust is removed from the network. Just because you're connected to a network doesn't mean you should be able to access everything on that network. This is commonly seen in breaches; an attacker gains a foothold in a network and is able to move laterally because everything on the network is trusted. **In a zero trust architecture, the network is treated as hostile.**
 
-However, in order to remove trust from the network, you need to instead gain confidence that you can trust a connection. This is achieved by building trust into the user's identity, their devices, and the services they access. For this model to be effective, each connection to a service should be authenticated, authorised against a policy, and encrypted, regardless of where the connection request come from. 
+However, in order **to remove trust from the network, you need to instead gain confidence that you can trust a connection. This is achieved by building trust into the user's identity, their devices, and the services they access. For this model to be effective, each connection to a service should be authenticated, authorised against a policy, and encrypted, regardless of where the connection request come from.**
 
 To enable authorisation decisions, access policies need to be defined, based on who can access which service or data, under which circumstances. How much confidence you need to trust a connection depends on the value of data being accessed or impact of action being performed.
 
 ## What does this guidance do?
-These principles are intended to help you design and deploy a secure end-to-end, zero trust architecture. This will stretch from your users and their devices, through to the services and data they are accessing. You'll also get a clear understanding of the zero trust model, the benefits it brings and the risks you'll need to consider.
+**These principles are intended to help you design and deploy a secure end-to-end, zero trust architecture.** This will stretch from your users and their devices, through to the services and data they are accessing. You'll also get a clear understanding of the zero trust model, the benefits it brings and the risks you'll need to consider.
 
 These principles are also not intended as a list of compliance standards. Consider all the principles and develop a plan on how you can implement them on your journey to a zero trust architecture.
 
@@ -55,7 +56,7 @@ Your organisation, technologies and good practice will change over time. Re-visi
 ## Take your time
 An existing system’s architecture can’t usually be completely changed overnight.
 
-Deploying the zero trust model to an existing network, regardless of its age or number of legacy services, will require a phased approach with many iterations. It will take time to get the foundations required in place. For example, establishing a strong identity for users and devices or deploying modern authentication across your organisation can be time consuming.
+**Deploying the zero trust model to an existing network, regardless of its age or number of legacy services, will require a phased approach with many iterations.** It will take time to get the foundations required in place. For example, establishing a strong identity for users and devices or deploying modern authentication across your organisation can be time consuming.
 
 While transitioning to a new architecture don't start decommissioning traditional security controls before you have implemented and tested your zero trust controls. Due to the nature of a zero trust architecture you may leave your systems exposed and at considerable risk if they aren't properly configured and tested.
 
